@@ -36,13 +36,20 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 p {
@@ -53,21 +60,40 @@ p {
 .smhead {
     color: var(--cs-orange);
     position: relative;
+    width: 20%;
+    margin: auto;
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
-.smhead::before {
+.smhead:before {
     content: "";
     display: block;
-    width: 20px;
+    width: 25%;
     height: 2px;
-    background: #CD5C5C;
-    left: 85px;
+    background: var(--cs-orange);
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.smhead:after {
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: var(--cs-orange);
+    right: 0;
     top: 50%;
     position: absolute;
 }
 
 .cp60 {
-    padding: 60px 0px;
+    padding: 60px 15px;
+}
+
+.bg {
+    background-color: var(--cs-bg);
 }
 
 /* header ======================*/
@@ -186,4 +212,165 @@ p {
     border: 2px solid var(--cs-orange);
     background-color: transparent;
     box-shadow: 0px 20px 40px 12px #00000052;
+}
+
+/* hero ends======================  */
+
+/* benefits start================= */
+.content_img img {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 30px 80px 0px #00000059;
+}
+
+.benefit_content ul li {
+    padding-bottom: 10px;
+}
+
+.benefit_content ul li i {
+    color: var(--cs-purple);
+    padding-right: 10px;
+}
+
+.highlight {
+    font-size: 20px;
+    background-color: var(--cs-bg);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.highlight i {
+    color: var(--cs-purple);
+    font-size: 20px;
+}
+
+/* benefits ends=========================== */
+
+/* .how it works============================ */
+.how_content {
+    width: 80%;
+}
+
+.stamp {
+    width: 150px;
+}
+
+.how_card {
+    border: 1px solid var(--cs-border);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    min-height: 265px;
+}
+
+.how_card img {
+    width: 50px;
+    fill: var(--cs-orange);
+    padding-bottom: 10px;
+}
+
+.how_card p {
+    font-size: 14px;
+}
+
+/* .how it ends============================ */
+
+/* testimonials starts ==========*/
+.slider_content {
+    background-color: var(--cs-bg) !important;
+    padding: 30px;
+    border-radius: 20px;
+    /* box-shadow: 0px 20px 30px 10px #0000000c; */
+    border: 1px solid var(--cs-border);
+    background: url(../images/quote-svgrepo-com.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider_content p {
+    font-size: 14px;
+}
+
+.star i {
+    color: var(--cs-orange);
+}
+
+.owl-carousel .owl-dots .disabled {
+    display: flex;
+}
+
+.owl-carousel .owl-dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    bottom: -40px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #ff6d4070;
+    margin: 5px;
+}
+
+.owl-carousel .owl-dots .active span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: var(--cs-orange);
+}
+
+/* testimonials ends=================== */
+
+/* direction starts===================== */
+.use_img img {}
+
+.usage_list {}
+
+.usage_list li {
+    margin-bottom: 30px;
+}
+
+.usage_list li i {
+
+    width: 40px;
+
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: var(--cs-purple);
+
+    border-radius: 50px;
+
+    color: var(--cs-white);
+
+    margin-bottom: 10px;
+}
+
+.usage_list2 {
+    text-align: right;
+}
+
+.usage_list2 li i {
+    margin-left: auto;
+}
+
+.hl{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
 }
