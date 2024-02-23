@@ -198,6 +198,7 @@
 
     .clarity {
         width: auto;
+        margin-top: 20px;
     }
 
     .cta {
@@ -217,6 +218,11 @@
 @media(max-width:425px) {
     .smhead {
         width: 85%;
+    }
+
+    .clarity {
+        width: auto;
+        margin-top: 20px;
     }
 
     .why_img {
