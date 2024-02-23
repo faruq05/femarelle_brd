@@ -1,18 +1,15 @@
-// nav scroll snap transition
-document.addEventListener("DOMContentLoaded", function () {
-    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+var btn = $('#backtotopbutton');
 
-    navLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-            event.preventDefault(); // Prevent default anchor behavior
-
-            const targetId = this.getAttribute('href'); // Get target section id
-            const targetSection = document.querySelector(targetId); // Get target section element
-
-            if (targetSection) {
-                // Scroll to the target section with smooth behavior
-                targetSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    });
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
 });
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+

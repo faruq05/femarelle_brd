@@ -1,0 +1,204 @@
+@media(max-width:1199px) {
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .smhead {
+        width: 35%;
+    }
+
+    .how_card {
+        min-height: 302px;
+    }
+}
+
+@media(max-width:991px) {
+    .desktop_nav {
+        display: none !important;
+    }
+
+    .mobile_nav {
+        display: flex !important;
+        background-color: var(--cs-bg);
+        border-radius: 30px;
+    }
+
+    .nav-item {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .how_card {
+        min-height: 260px;
+    }
+
+    .content_img {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .usage_list li {
+        text-align: center;
+    }
+
+    .usage_list li i {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .use_img {
+        text-align: center;
+    }
+
+    .use_img img {
+        width: 50%;
+    }
+
+    .clarity {
+        width: 78%;
+    }
+
+    .faq_img {
+        width: auto;
+    }
+
+    .why_adjust {
+        display: none;
+    }
+
+    .adjust2 {
+        display: block;
+    }
+
+    .why li {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .cp60 {
+        padding: 40px 10px;
+    }
+
+    .header{
+        padding: 5px 0px;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+        margin: auto;
+    }
+
+    .desktop_nav {
+        display: none !important;
+    }
+
+    .mobile_nav {
+        display: flex !important;
+        background-color: var(--cs-bg);
+        border-radius: 30px;
+    }
+
+    .nav-item {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .custom-shape-divider-bottom-1708679419 svg {
+        width: auto;
+    }
+
+    .hero .row {
+        min-height: 650px;
+    }
+
+    .hero_content {
+        width: auto;
+    }
+
+    .hero_content h2 {
+        font-size: 20px;
+    }
+
+    .smhead {
+        width: 60%;
+    }
+
+    .content_img {
+        width: auto;
+    }
+
+    .content_img {
+        margin-bottom: 30px;
+    }
+
+
+    .slider_content h3 {
+        font-size: 18px;
+    }
+
+    .how_text .stamp {
+        margin: auto;
+    }
+
+    .how_content {
+        width: auto;
+    }
+
+    .how_card {
+        min-height: auto;
+    }
+
+    .usage_list li i {
+        margin: auto;
+    }
+
+    .usage_list li {
+        text-align: center;
+    }
+
+    .clarity {
+        width: auto;
+    }
+
+    .cta {
+        width: auto;
+    }
+
+    .cta h2 {
+        line-height: 30px;
+    }
+
+    .cc h4 {
+        width: auto;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:425px) {
+    .smhead {
+        width: 85%;
+    }
+
+    .why_img {
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
