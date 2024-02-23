@@ -162,6 +162,9 @@
         margin-bottom: 30px;
     }
 
+    .testimonials {
+        padding: 30px 10px 70px 10px;
+    }
 
     .slider_content h3 {
         font-size: 18px;
@@ -220,6 +223,7 @@
         width: 85%;
     }
 
+    
     .clarity {
         width: auto;
         margin-top: 20px;

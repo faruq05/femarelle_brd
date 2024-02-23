@@ -96,6 +96,9 @@ p {
     background-color: var(--cs-bg);
 }
 
+/* global ends */
+
+/* header start================ */
 .header {
     position: fixed;
     width: 100%;
@@ -172,7 +175,9 @@ p {
 .custom-shape-divider-bottom-1708679419 .shape-fill {
     fill: rgb(255, 255, 255);
 }
+/* header end==================== */
 
+/* hero starts============= */
 .hero .row {
     min-height: 85vh;
     align-items: center;
@@ -208,7 +213,9 @@ p {
     box-shadow: rgba(0, 0, 0, 0.32) 0px 20px 40px 12px;
     transform: scale(1.02);
 }
+/* hero ends======================== */
 
+/* benefit starts================== */
 .content_img img {
     width: 80%;
     border-radius: 20px;
@@ -237,7 +244,9 @@ p {
     color: var(--cs-purple);
     font-size: 20px;
 }
+/* benefit ends===================== */
 
+/* how starts======================= */
 .how_content {
     width: 80%;
 }
@@ -268,7 +277,9 @@ p {
 .how_card p {
     font-size: 14px;
 }
+/* how starts ends ===================== */
 
+/* .testimonials starts ================ */
 .slider_content {
     padding: 30px;
     border-radius: 20px;
@@ -320,7 +331,9 @@ p {
     border-radius: 50px;
     background-color: var(--cs-orange);
 }
+/* testimonials ends============== */
 
+/* direction starts================ */
 .use_img .col img {
     width: 80%;
     margin: auto;
@@ -413,7 +426,9 @@ p {
     font-size: 14px;
     margin-top: 10px;
 }
+/* direction ends================== */
 
+/* faq starts====================== */
 .accordion-button {
     background-color: var(--cs-bg);
     border-radius: 0px;
@@ -445,7 +460,9 @@ p {
     border: 1px solid var(--cs-border) !important;
     box-shadow: none !important;
 }
+/* faq ends======================== */
 
+/* why choose starts=============== */
 .why li {
     margin-bottom: 20px;
 }
@@ -486,7 +503,9 @@ p {
 .adjust2 {
     display: none;
 }
+/* why choose ends================= */
 
+/* cta starts===================== */
 .purchase {
     background: url("../images/IMG_3523.JPG") center center / cover no-repeat;
     position: relative;
@@ -525,7 +544,9 @@ p {
     margin: 20px 0px;
     color: var(--cs-white) !important;
 }
+/* cta ends=========================== */
 
+/* footer starts====================== */
 .footer {
     background: var(--cs-text);
     padding: 30px 0px;
@@ -585,7 +606,9 @@ p {
     font-size: 12px;
     color: var(--cs-border);
 }
+/* footer ends======================== */
 
+/* back to top starts============== */
 #backtotopbutton {
     background-color: var(--cs-orange);
     width: 30px;
@@ -617,3 +640,4 @@ p {
     opacity: 1;
     visibility: visible;
 }
+/* back to top ends=========== */
