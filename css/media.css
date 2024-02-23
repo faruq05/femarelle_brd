@@ -58,6 +58,19 @@
         width: 50%;
     }
 
+    .use_img .col img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .use_img {
+        margin-bottom: 80px;
+    }
+
+    .use-carousel .owl-nav {
+        bottom: -60px;
+    }
+
     .clarity {
         width: 78%;
     }
@@ -97,7 +110,7 @@
         padding: 40px 10px;
     }
 
-    .header{
+    .header {
         padding: 5px 0px;
     }
 
@@ -172,6 +185,15 @@
 
     .usage_list li {
         text-align: center;
+    }
+
+    .use_img .col img {
+        width: 70%;
+        margin: auto;
+    }
+
+    .use_img {
+        margin-bottom: 80px;
     }
 
     .clarity {

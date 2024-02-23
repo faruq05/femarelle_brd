@@ -4,7 +4,16 @@
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, ul, li, a, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -312,11 +321,12 @@ p {
     background-color: var(--cs-orange);
 }
 
-.use_img img {
+.use_img .col img {
+    width: 80%;
+    margin: auto;
 }
 
-.usage_list {
-}
+.usage_list {}
 
 .usage_list li {
     margin-bottom: 30px;
@@ -348,7 +358,46 @@ p {
     justify-content: center;
     width: 60%;
     margin: auto;
+    margin-top: 65px;
 }
+
+.use-carousel .owl-dots.disabled {
+    display: none;
+}
+
+.use-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.use-carousel .owl-nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.use-carousel .owl-nav .owl-prev i,
+.use-carousel .owl-nav .owl-next i {
+    background-color: transparent;
+    border: 1px solid var(--cs-purple);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cs-purple);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.use-carousel .owl-nav .owl-prev i:hover,
+.use-carousel .owl-nav .owl-next i:hover {
+    background-color: var(--cs-purple);
+    color: var(--cs-white);
+}
+
 
 .clarity .col {
     text-align: center;
