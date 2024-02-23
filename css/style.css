@@ -175,21 +175,34 @@ p {
 .custom-shape-divider-bottom-1708679419 .shape-fill {
     fill: rgb(255, 255, 255);
 }
+
 /* header end==================== */
 
 /* hero starts============= */
 .hero .row {
-    min-height: 85vh;
+    min-height: 90vh;
     align-items: center;
 }
 
 .hero_content {
     position: relative;
     z-index: 20;
-    text-align: center;
-    width: 80%;
-    margin: auto;
+    text-align: left;
     color: var(--cs-white);
+}
+
+.prod_img {
+    position: relative;
+    z-index: 20;
+    text-align: right;
+}
+
+.prod_img img{
+    width: 55%;
+}
+
+.prod_img2{
+    display: none;
 }
 
 .hero_content h2 {
@@ -197,8 +210,28 @@ p {
     margin: 30px 0px;
 }
 
+.prod_info {
+    margin-top: 40px;
+    background-color: #fcd0e7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 40px 5px;
+}
+
+.prod_info img{
+    width: 200px;
+}
+
+.prod_info h2 {
+    color: #bf1067;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
 .btn-cta {
-    padding: 15px 40px;
+    padding: 12px 40px;
     border-radius: 0px;
     background-color: var(--cs-orange);
     color: var(--cs-white);
@@ -210,9 +243,10 @@ p {
 .btn-cta:hover {
     border: 2px solid var(--cs-orange);
     background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.32) 0px 20px 40px 12px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 20px 40px 12px;
     transform: scale(1.02);
 }
+
 /* hero ends======================== */
 
 /* benefit starts================== */
@@ -244,6 +278,7 @@ p {
     color: var(--cs-purple);
     font-size: 20px;
 }
+
 /* benefit ends===================== */
 
 /* how starts======================= */
@@ -277,6 +312,7 @@ p {
 .how_card p {
     font-size: 14px;
 }
+
 /* how starts ends ===================== */
 
 /* .testimonials starts ================ */
@@ -331,6 +367,7 @@ p {
     border-radius: 50px;
     background-color: var(--cs-orange);
 }
+
 /* testimonials ends============== */
 
 /* direction starts================ */
@@ -426,6 +463,7 @@ p {
     font-size: 14px;
     margin-top: 10px;
 }
+
 /* direction ends================== */
 
 /* faq starts====================== */
@@ -460,6 +498,7 @@ p {
     border: 1px solid var(--cs-border) !important;
     box-shadow: none !important;
 }
+
 /* faq ends======================== */
 
 /* why choose starts=============== */
@@ -503,6 +542,7 @@ p {
 .adjust2 {
     display: none;
 }
+
 /* why choose ends================= */
 
 /* cta starts===================== */
@@ -544,6 +584,7 @@ p {
     margin: 20px 0px;
     color: var(--cs-white) !important;
 }
+
 /* cta ends=========================== */
 
 /* footer starts====================== */
@@ -606,6 +647,7 @@ p {
     font-size: 12px;
     color: var(--cs-border);
 }
+
 /* footer ends======================== */
 
 /* back to top starts============== */
@@ -640,4 +682,5 @@ p {
     opacity: 1;
     visibility: visible;
 }
+
 /* back to top ends=========== */

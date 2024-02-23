@@ -16,6 +16,14 @@
 }
 
 @media(max-width:991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .cp60 {
+        padding: 40px 10px;
+    }
+
     .desktop_nav {
         display: none !important;
     }
@@ -29,6 +37,14 @@
     .nav-item {
         text-align: center;
         font-size: 14px;
+    }
+
+    .prod_info h2 {
+        font-size: 25px;
+    }
+
+    .prod_img img {
+        width: 80%;
     }
 
     .how_card {
@@ -95,7 +111,7 @@
 
 @media(max-width:767px) {
     h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     h2 {
@@ -129,6 +145,27 @@
         border-radius: 30px;
     }
 
+
+    .hero_content {
+        text-align: center;
+    }
+
+    .prod_info h2 {
+        font-size: 25px;
+    }
+
+    .prod_img {
+        display: none;
+    }
+
+    .prod_img2 {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
     .nav-item {
         text-align: center;
         font-size: 14px;
@@ -139,7 +176,7 @@
     }
 
     .hero .row {
-        min-height: 650px;
+        min-height: 100vh;
     }
 
     .hero_content {
@@ -219,11 +256,24 @@
 }
 
 @media(max-width:425px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .prod_img2 {
+        display: block;
+        text-align: center;
+        width: 65%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
     .smhead {
         width: 85%;
     }
 
-    
+
     .clarity {
         width: auto;
         margin-top: 20px;
