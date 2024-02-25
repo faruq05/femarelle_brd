@@ -602,7 +602,7 @@ strike {
 } */
 
 .fm{
-    color: #fce9f4;
+    color: var(--cs-orange);
 }
 
 .cta p {
