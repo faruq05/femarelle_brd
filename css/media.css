@@ -15,6 +15,10 @@
 
 @media(max-width:1024px) {
 
+    .hero{
+        padding: 120px 10px 60px 10px;
+    }
+
     .pro img {
         width: 70% !important;
     }
@@ -23,10 +27,10 @@
         width: auto;
     }
 
-    .prod_info h2{
+    .prod_info h2 {
         font-size: 28px;
     }
-    
+
 
     .smhead {
         width: 35%;
@@ -66,7 +70,7 @@
         font-size: 14px;
     }
 
-    .hero_content{
+    .hero_content {
         width: auto;
     }
 
@@ -78,10 +82,10 @@
         width: auto;
     }
 
-    .prod_info h2{
+    .prod_info h2 {
         font-size: 28px;
     }
-    
+
     .how_card {
         min-height: 260px;
     }
@@ -221,7 +225,7 @@
         margin-top: 25px;
     }
 
-    .prod_content h2{
+    .prod_content h2 {
         font-size: 30px;
     }
 
@@ -235,7 +239,7 @@
         padding: 10px 0px 15px 0px;
     }
 
-    
+
     .btn-cta {
         padding: 10px 30px;
     }
