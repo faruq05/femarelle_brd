@@ -142,7 +142,6 @@ p {
 .hero {
     background: url("../images/hero.jpg") center center / cover no-repeat;
     position: relative;
-    padding: 120px 10px 60px 10px;
 }
 
 .hero::before {

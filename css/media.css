@@ -15,10 +15,6 @@
 
 @media(max-width:1024px) {
 
-    .hero{
-        padding: 120px 10px 60px 10px;
-    }
-
     .pro img {
         width: 70% !important;
     }
@@ -72,6 +68,7 @@
 
     .hero_content {
         width: auto;
+        padding-top: 70px;
     }
 
     .pro img {
@@ -201,6 +198,7 @@
     .hero_content {
         text-align: center;
         width: auto;
+        padding-top: 60px;
     }
 
     .hero_content h2 {
