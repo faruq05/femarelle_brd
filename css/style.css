@@ -595,6 +595,16 @@ strike {
     line-height: 45px;
 }
 
+/* .cta img{
+    background-color:#fce9f4;
+    border-radius: 10px;
+    width: 150px;
+} */
+
+.fm{
+    color: #fce9f4;
+}
+
 .cta p {
     margin: 20px 0px;
     color: var(--cs-white) !important;
