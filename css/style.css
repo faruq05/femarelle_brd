@@ -172,10 +172,11 @@ p {
 
 .custom-shape-divider-bottom-1708679419 .shape-fill {
     fill: rgb(255, 255, 255);
+    z-index: 0;
 }
 
 .hero .row {
-    min-height: 100vh;
+    min-height: 85vh;
     align-items: center;
 }
 
@@ -193,6 +194,16 @@ p {
     margin: 30px 0px;
 }
 
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check img{
+    width: 60px;
+    padding-right: 10px;
+}
 .prod_img {
     position: relative;
     z-index: 20;
@@ -276,8 +287,10 @@ strike {
 }
 
 .benefits {
-    margin-top: -20px;
+    margin-top: -50px;
     padding: 0px 15px 60px;
+    position: relative;
+    z-index: 10;
 }
 
 .content_img img {

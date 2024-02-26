@@ -72,7 +72,7 @@
     }
 
     .pro img {
-        width: 80% !important;
+        width: 75% !important;
     }
 
     .prod_info {
@@ -335,7 +335,7 @@
     }
 
     .hero .row {
-        min-height: 100vh;
+        min-height: 85vh;
     }
 
     .prod_info {
