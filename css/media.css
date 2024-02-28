@@ -40,6 +40,10 @@
         min-height: 395px;
         background-size: 50%;
     }
+
+    .endor {
+        right: -8px;
+    }
 }
 
 @media(max-width:991px) {
@@ -412,7 +416,7 @@
     }
 }
 
-@media(max-width:425px) {
+@media(max-width:375px) {
 
     h1 {
         font-size: 25px;
@@ -420,5 +424,9 @@
 
     .pro img {
         width: 50% !important;
+    }
+
+    .endor {
+        right: -15px;
     }
 }
