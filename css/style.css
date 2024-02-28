@@ -293,6 +293,11 @@ strike {
     z-index: 10;
 }
 
+.fa-star-of-life{
+    color: var(--cs-purple);
+    font-size: 11px;
+}
+
 .content_img img {
     width: 80%;
     border-radius: 20px;
@@ -315,11 +320,6 @@ strike {
     border-radius: 10px;
     margin-top: 20px;
     line-height: 30px;
-}
-
-.highlight i {
-    color: var(--cs-purple);
-    font-size: 20px;
 }
 
 .how_content {
