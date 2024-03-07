@@ -187,6 +187,7 @@ p {
     color: var(--cs-white);
     width: 80%;
     margin: auto;
+    padding: 80px 0px;
 }
 
 .hero_content h2 {
