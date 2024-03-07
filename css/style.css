@@ -1,23 +1,23 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif
 }
 
+a,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-ul,
 li,
-a,
-p {
-    margin: 0px;
-    padding: 0px;
+p,
+ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none
 }
 
 :root {
@@ -27,35 +27,77 @@ p {
     --cs-text: #212121;
     --cs-bg: #f2f8f9;
     --cs-white: #fff;
-    --cs-border: #c5c4c47a;
+    --cs-border: #c5c4c47a
 }
 
 h1 {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 800
 }
 
 h2 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 600
+}
+
+.btn-cta,
+.nav-link,
+h3,
+h4 {
+    font-weight: 500
 }
 
 h3 {
     font-size: 28px;
-    font-weight: 500;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
 h4 {
     font-size: 18px;
-    font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 10px
+}
+
+img{
+    aspect-ratio: attr(width) / attr(height);
+}
+
+.bg,
+.header {
+    background-color: var(--cs-bg)
+}
+
+.content_img img,
+.prod_content {
+    box-shadow: rgba(0, 0, 0, .184) 0 30px 80px 0
+}
+
+.btn-cta:hover,
+.how_card:hover {
+    transform: scale(1.02)
+}
+
+.btn-cta,
+.how_card,
+.nav-link,
+.social li a i {
+    transition: .2s ease-in-out, .2s ease-in-out
+}
+
+.social li a i,
+.usage_list li i,
+.why li i {
+    width: 40px;
+    height: 40px
+}
+
+.nav-link,
+p {
+    font-size: 16px
 }
 
 p {
-    font-size: 16px;
     font-weight: 400;
-    color: var(--cs-text);
+    color: var(--cs-text)
 }
 
 .smhead {
@@ -63,185 +105,188 @@ p {
     position: relative;
     width: 20%;
     margin: auto auto 10px;
-    text-transform: capitalize;
+    text-transform: capitalize
 }
 
 .smhead::before {
-    content: "";
-    display: block;
-    width: 25%;
-    height: 2px;
-    background: var(--cs-orange);
-    left: 0px;
-    top: 50%;
-    position: absolute;
+    left: 0
 }
 
 .smhead::after {
-    content: "";
-    display: block;
+    right: 0
+}
+
+.smhead::after,
+.smhead::before {
     width: 25%;
     height: 2px;
     background: var(--cs-orange);
-    right: 0px;
     top: 50%;
     position: absolute;
+    display: block;
+    content: ""
 }
 
 .cp60 {
-    padding: 60px 15px;
-}
-
-.bg {
-    background-color: var(--cs-bg);
+    padding: 60px 15px
 }
 
 .header {
     position: fixed;
     width: 100%;
     z-index: 100;
-    padding: 10px 0px;
-    background-color: var(--cs-bg);
-    border-bottom: 1px solid var(--cs-border);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--cs-border)
 }
 
 .mobile_nav {
-    display: none !important;
+    display: none !important
 }
 
 .desktop_nav {
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0 20px
+}
+
+.check,
+.hero .row {
+    align-items: center
 }
 
 .navbar-brand img {
     width: 150px;
-    margin: auto;
+    margin: auto
 }
 
 .nav-item {
-    padding: 0px 10px;
+    padding: 0 10px
 }
 
 .nav-link {
-    color: var(--cs-purple);
-    font-weight: 500;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out 0s, all 0.2s ease-in-out 0s;
+    color: var(--cs-purple)
 }
 
-.nav-link:hover {
-    color: var(--cs-orange);
+.btn-cta:hover,
+.fm,
+.nav-link:hover,
+.star i,
+strike {
+    color: var(--cs-orange)
 }
 
 .desktop_nav .navbar-collapse {
-    width: 40% !important;
+    width: 40% !important
 }
 
 .hero {
-    background: url("../images/hero.jpg") center center / cover no-repeat;
-    position: relative;
+    background: url("../images/hero.webp") center center/cover no-repeat;
+    position: relative
 }
 
 .hero::before {
     content: "";
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(32, 158, 163, 0.8) 0%, rgba(129, 0, 63, 0.5) 50%, rgba(234, 79, 50, 0.2) 100%);
+    background: linear-gradient(90deg, rgba(32, 158, 163, .8) 0, rgba(129, 0, 63, .5) 50%, rgba(234, 79, 50, .2) 100%)
 }
 
 .custom-shape-divider-bottom-1708679419 {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     overflow: hidden;
-    line-height: 0;
+    line-height: 0
+}
+
+.hero_content,
+.prod_info {
+    width: 80%;
+    margin: auto;
+    position: relative
 }
 
 .custom-shape-divider-bottom-1708679419 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 150px
 }
 
 .custom-shape-divider-bottom-1708679419 .shape-fill {
     fill: rgb(255, 255, 255);
-    z-index: 0;
+    z-index: 0
 }
 
 .hero .row {
-    min-height: 85vh;
-    align-items: center;
+    min-height: 85vh
 }
 
 .hero_content {
-    position: relative;
     z-index: 20;
     text-align: center;
     color: var(--cs-white);
-    width: 80%;
-    margin: auto;
-    padding: 80px 0px;
+    padding: 80px 0
 }
 
 .hero_content h2 {
     font-size: 30px;
-    margin: 30px 0px;
+    margin: 30px 0
 }
 
-.check{
+.check {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
-.check img{
+.check img {
     width: 60px;
-    padding-right: 10px;
+    padding-right: 10px
 }
+
 .prod_img {
     position: relative;
     z-index: 20;
-    text-align: right;
+    text-align: right
 }
 
 .prod_img img {
-    width: 55%;
+    width: 55%
 }
 
-.prod_img2 {
-    display: none;
+.adjust2,
+.prod_img2,
+.use-carousel .owl-dots.disabled {
+    display: none
 }
 
 .prod_info .row {
     min-height: auto;
-    align-items: center;
-}
-
-.prod_info {
-    width: 80%;
-    margin: auto;
-    position: relative;
+    align-items: center
 }
 
 .pro img {
-    width: 70% !important;
+    width: 70% !important
 }
 
+.footer_content img,
 .prod_info img {
-    width: 200px;
+    width: 200px
 }
 
 .prod_info h2 {
-    color: rgb(191, 16, 103);
+    color: #bf1067;
     font-weight: 700;
-    margin: 0px 0px 12px;
+    margin: 0 0 12px
+}
+
+.prod_content h4,
+.prod_content p {
+    color: var(--cs-text)
 }
 
 .prod_content {
@@ -249,69 +294,67 @@ p {
     text-align: left;
     padding: 20px;
     border-radius: 15px;
-    background-color: rgb(253, 233, 244);
-    box-shadow: rgba(0, 0, 0, 0.184) 0px 30px 80px 0px;
-}
-
-.prod_content p {
-    color: var(--cs-text);
+    background-color: #fde9f4
 }
 
 .prod_content h4 {
-    padding: 12px 0px 16px;
+    padding: 12px 0 16px;
     font-size: 25px;
-    font-weight: 600;
-    color: var(--cs-text);
+    font-weight: 600
+}
+
+.benefit_content ul li,
+.how_card img {
+    padding-bottom: 10px
 }
 
 strike {
-    color: var(--cs-orange);
-    font-size: 18px;
+    font-size: 18px
 }
 
 .btn-cta {
     padding: 12px 40px;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: var(--cs-orange);
     color: var(--cs-white);
-    border: 2px solid transparent;
-    font-weight: 500;
-    transition: all 0.2s ease-in-out 0s, all 0.2s ease-in-out 0s;
+    border: 2px solid transparent
 }
 
 .btn-cta:hover {
     border: 2px solid var(--cs-orange);
     background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px 12px;
-    transform: scale(1.02);
-    color: var(--cs-orange);
+    box-shadow: rgba(0, 0, 0, .2) 0 20px 40px 12px
+}
+
+.accordion-button:not(.collapsed),
+.usage_list li i,
+.use-carousel .owl-nav .owl-next i:hover,
+.use-carousel .owl-nav .owl-prev i:hover,
+.why li i {
+    color: var(--cs-white);
+    background-color: var(--cs-purple)
 }
 
 .benefits {
     margin-top: -50px;
-    padding: 0px 15px 60px;
+    padding: 0 15px 60px;
     position: relative;
-    z-index: 10;
+    z-index: 10
 }
 
-.fa-star-of-life{
+.fa-star-of-life {
     color: var(--cs-purple);
-    font-size: 11px;
+    font-size: 11px
 }
 
 .content_img img {
     width: 80%;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.184) 0px 30px 80px 0px;
-}
-
-.benefit_content ul li {
-    padding-bottom: 10px;
+    border-radius: 20px
 }
 
 .benefit_content ul li i {
     color: var(--cs-purple);
-    padding-right: 10px;
+    padding-right: 10px
 }
 
 .highlight {
@@ -320,15 +363,15 @@ strike {
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
-    line-height: 30px;
+    line-height: 30px
 }
 
 .how_content {
-    width: 80%;
+    width: 80%
 }
 
 .stamp {
-    width: 150px;
+    width: 150px
 }
 
 .how_card {
@@ -336,26 +379,23 @@ strike {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 25px;
-    min-height: 265px;
-    transition: all 0.2s ease-in-out 0s, all 0.2s ease-in-out 0s;
-}
-
-.how_card:hover {
-    transform: scale(1.02);
+    min-height: 265px
 }
 
 .how_card img {
     width: 50px;
-    fill: var(--cs-orange);
-    padding-bottom: 10px;
+    fill: var(--cs-orange)
 }
 
-.how_card p {
-    font-size: 14px;
+.how_card p,
+.slider_content p,
+.why li p {
+    font-size: 14px
 }
 
+.cta h4,
 .slider_content h3 {
-    font-size: 25px;
+    font-size: 25px
 }
 
 .slider_content {
@@ -370,19 +410,11 @@ strike {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: var(--cs-bg) !important;
-}
-
-.slider_content p {
-    font-size: 14px;
-}
-
-.star i {
-    color: var(--cs-orange);
+    background-color: var(--cs-bg) !important
 }
 
 .owl-carousel .owl-dots .disabled {
-    display: flex;
+    display: flex
 }
 
 .owl-carousel .owl-dots {
@@ -391,7 +423,7 @@ strike {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -40px;
+    bottom: -40px
 }
 
 .owl-carousel .owl-dots .owl-dot span {
@@ -399,8 +431,8 @@ strike {
     width: 8px;
     height: 8px;
     border-radius: 50px;
-    background-color: rgba(255, 109, 64, 0.44);
-    margin: 5px;
+    background-color: rgba(255, 109, 64, .44);
+    margin: 5px
 }
 
 .owl-carousel .owl-dots .active span {
@@ -408,38 +440,39 @@ strike {
     width: 12px;
     height: 12px;
     border-radius: 50px;
-    background-color: var(--cs-orange);
+    background-color: var(--cs-orange)
 }
 
 .use_img .col img {
     width: 80%;
-    margin: auto;
+    margin: auto
 }
 
-.usage_list {}
-
 .usage_list li {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 .usage_list li i {
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cs-purple);
     border-radius: 50px;
-    color: var(--cs-white);
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .usage_list2 {
-    text-align: right;
+    text-align: right
+}
+
+#backtotopbutton,
+.clarity .col,
+.cta,
+.footer_content {
+    text-align: center
 }
 
 .usage_list2 li i {
-    margin-left: auto;
+    margin-left: auto
 }
 
 .clarity {
@@ -447,15 +480,16 @@ strike {
     align-items: center;
     justify-content: center;
     width: 60%;
-    margin: 65px auto auto;
+    margin: 65px auto auto
 }
 
-.use-carousel .owl-dots.disabled {
-    display: none;
+.accordion-item,
+.why li {
+    margin-bottom: 20px
 }
 
 .use-carousel .owl-nav.disabled {
-    display: block;
+    display: block
 }
 
 .use-carousel .owl-nav {
@@ -464,11 +498,11 @@ strike {
     position: absolute;
     left: 48%;
     transform: translateX(-50%);
-    bottom: -50px;
+    bottom: -50px
 }
 
-.use-carousel .owl-nav .owl-prev i,
-.use-carousel .owl-nav .owl-next i {
+.use-carousel .owl-nav .owl-next i,
+.use-carousel .owl-nav .owl-prev i {
     background-color: transparent;
     border: 1px solid var(--cs-purple);
     width: 30px;
@@ -478,203 +512,157 @@ strike {
     justify-content: center;
     color: var(--cs-purple);
     border-radius: 5px;
-    margin: 5px;
-}
-
-.use-carousel .owl-nav .owl-prev i:hover,
-.use-carousel .owl-nav .owl-next i:hover {
-    background-color: var(--cs-purple);
-    color: var(--cs-white);
-}
-
-.clarity .col {
-    text-align: center;
+    margin: 5px
 }
 
 .clarity .col img {
     width: 50px;
     height: 50px;
-    object-fit: contain;
+    object-fit: contain
 }
 
 .clarity .col p {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .accordion-button {
     background-color: var(--cs-bg);
-    border-radius: 0px;
-    border: 1px solid var(--cs-border);
+    border-radius: 0;
+    border: 1px solid var(--cs-border)
 }
 
 .accordion-item {
     color: var(--bs-accordion-color);
     background-color: var(--cs-bg);
     border: transparent;
-    margin-bottom: 20px;
-    border-radius: 0px;
+    border-radius: 0
+}
+
+.cta,
+.cta p {
+    color: var(--cs-white) !important
 }
 
 .accordion-body {
     background-color: var(--cs-white);
-    border: 1px solid var(--cs-border);
+    border: 1px solid var(--cs-border)
 }
 
 .accordion-button:not(.collapsed) {
-    color: var(--cs-white);
-    background-color: var(--cs-purple);
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)
 }
 
 .accordion-button:focus {
     z-index: 3;
-    outline: 0px;
+    outline: 0;
     border: 1px solid var(--cs-border) !important;
-    box-shadow: none !important;
-}
-
-.why li {
-    margin-bottom: 20px;
+    box-shadow: none !important
 }
 
 .why li i {
-    background-color: var(--cs-purple);
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--cs-white);
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.why li p {
-    font-size: 14px;
+    margin-bottom: 10px
 }
 
 .why_img {
-    position: relative;
+    position: relative
 }
 
 .why_img img {
     width: 80%;
-    padding: 15px;
+    padding: 15px
 }
 
 .endor {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     right: 20px;
     z-index: 10;
-    width: 150px !important;
+    width: 150px !important
 }
 
-.adjust2 {
-    display: none;
+.cta,
+.purchase {
+    position: relative
 }
 
 .purchase {
-    background: url("../images/IMG_3523.JPG") center center / cover no-repeat;
-    position: relative;
+    background: url("../images/IMG_3523.webp") center center/cover no-repeat
 }
 
 .purchase .row {
     min-height: 50vh;
-    align-items: center;
+    align-items: center
 }
 
 .purchase::before {
     position: absolute;
     content: "";
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(33, 33, 33, 0.76);
-    z-index: 0;
+    background-color: rgba(33, 33, 33, .76);
+    z-index: 0
 }
 
 .cta {
-    position: relative;
     z-index: 1;
-    text-align: center;
     width: 60%;
-    margin: auto;
-    color: var(--cs-white) !important;
+    margin: auto
 }
 
 .cta h2 {
-    line-height: 45px;
-}
-
-/* .cta img{
-    background-color:#fce9f4;
-    border-radius: 10px;
-    width: 150px;
-} */
-
-.fm{
-    color: var(--cs-orange);
+    line-height: 45px
 }
 
 .cta p {
-    margin: 20px 0px;
-    color: var(--cs-white) !important;
+    margin: 20px 0
 }
 
 .cta h4 {
-    padding: 16px 0px 20px;
-    font-size: 25px;
+    padding: 16px 0 20px;
     font-weight: 600;
-    color: var(--cs-white);
+    color: var(--cs-white)
 }
 
 .footer {
     background: var(--cs-text);
-    padding: 30px 0px;
-}
-
-.footer_content {
-    text-align: center;
-}
-
-.footer_content img {
-    width: 200px;
+    padding: 30px 0
 }
 
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .social li a i {
     font-size: 20px;
     padding: 10px;
     color: var(--cs-bg);
-    transition: all 0.2s ease-in-out 0s, all 0.2s ease-in-out 0s;
-    width: 40px;
-    height: 40px;
     border: 1px solid var(--cs-border);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .social li a i:hover {
     color: var(--cs-white);
     background-color: var(--cs-purple);
     border: 1px solid var(--cs-purple);
-    transform: scale(1.15);
+    transform: scale(1.15)
 }
 
 .footer_content hr {
-    color: var(--cs-border);
+    color: var(--cs-border)
 }
 
 .cc h4 {
@@ -684,45 +672,44 @@ strike {
     line-height: 20px;
     font-weight: 400;
     margin: auto;
-    background-color: rgb(245, 245, 245);
+    background-color: #f5f5f5;
     padding: 10px 5px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .cc p {
     margin-top: 10px;
     font-size: 12px;
-    color: var(--cs-border);
+    color: var(--cs-border)
 }
 
 #backtotopbutton {
     background-color: var(--cs-orange);
     width: 30px;
     height: 30px;
-    text-align: center;
     border-radius: 50px;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color 0.3s ease 0s, opacity 0.5s ease 0s, visibility 0.5s ease 0s;
+    transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 #backtotopbutton:hover {
     cursor: pointer;
-    background-color: var(--cs-purple);
+    background-color: var(--cs-purple)
 }
 
 #backtotopbutton:active {
-    background-color: var(--cs-purple);
+    background-color: var(--cs-purple)
 }
 
 #backtotopbutton.show {
     opacity: 1;
-    visibility: visible;
+    visibility: visible
 }
