@@ -16,3 +16,8 @@ btn.on('click', function (e) {
 });
 
 window.addEventListener('scroll', myScrollHandler, { passive: true });
+
+// Initialize LazyLoad
+var lazyLoadInstance = new LazyLoad({
+  elements_selector: ".lazy"
+});
